@@ -47,14 +47,14 @@ The project uses a Python virtual environment to ensure compatibility across dif
 #### **YOLOv8n (Nano) Detection Output**
 This model is designed for speed, making it ideal for real-time detection, though it sacrifices some accuracy in detecting smaller or more complex objects. In this experiment, YOLOv8n successfully detected the majority of people and cars but missed some details.
 
-![YOLOv8n People_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8n_people_detection.png)
-![YOLOv8n Cars_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8n_cars_detection.png)
+![YOLOv8n People_Detection_Output](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8n_people_detection.png)
+![YOLOv8n Cars_Detection_Output](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8n_cars_detection.png)
 
 #### **YOLOv8l (Large) Detection Output**
 With a focus on accuracy, YOLOv8l demonstrated superior object detection capabilities, identifying all people and cars in the images with high precision. However, this came at the cost of slower inference times.
 
-![YOLOv8l People_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8l_people_detection.png)
-![YOLOv8l Cars_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8l_cars_detection.png)
+![YOLOv8l People_Detection_Output](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8l_people_detection.png)
+![YOLOv8l Cars_Detection_Output](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8l_cars_detection.png)
 
 ---
 
