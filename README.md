@@ -1,54 +1,97 @@
-YOLOv8 Object Detection Experiment
-This project explores the capabilities of YOLOv8 (You Only Look Once) object detection models in identifying people and cars from images. The experiment leverages two different YOLOv8 weights—YOLOv8n (nano) and YOLOv8l (large)—to compare performance in terms of speed and accuracy. The entire setup was conducted in a Python virtual environment on a Linux system to ensure reproducibility and isolation from global dependencies.
+# YOLOv8 Object Detection Experiment
 
-Project Overview
-This experiment aims to highlight the trade-offs between real-time performance and detection accuracy when using different YOLOv8 models. By running the same set of images through YOLOv8n and YOLOv8l, we can observe how each model responds to the task of detecting both people and cars in various scenes.
+This project demonstrates object detection using **YOLOv8** models on images containing people and cars. The experiment was conducted within a Python virtual environment on a Linux system to ensure reproducibility and isolation from global dependencies.
 
-The experiment was implemented using the script yolloBasics.py, which processes input images using the specified YOLO model weights and outputs the detected objects with bounding boxes.
+## Project Overview
 
-Virtual Environment Setup
-The project is contained within a Python virtual environment to ensure compatibility and isolation from system-wide packages. All dependencies are managed through requirements.txt, allowing easy setup on any machine.
+In this experiment, different **YOLOv8** weights, including **YOLOv8n** (nano) and **YOLOv8l** (large), were used to detect objects in images. The goal was to compare performance in terms of speed and accuracy for different models on the same dataset.
 
-Key steps:
+The object detection was executed using the script `yolloBasics.py`, which processes input images and applies YOLO models to detect objects like people and cars.
 
-Virtual environment creation and activation.
-Installation of YOLO dependencies.
-Execution of object detection with YOLOv8 models.
-YOLOv8 Models Used
-Model	Size	Speed	Accuracy	Use Case
-YOLOv8n	Small	Fast	Moderate	Real-time detection
-YOLOv8l	Large	Slower	High	High-accuracy tasks
-Sample Outputs
-YOLOv8n (Nano) Detection Output:
+> **Note:** The models were trained and tested on a variety of images. Check out the results below for more details.
+
+---
+
+## Virtual Environment Setup
+
+The project uses a Python virtual environment to ensure compatibility across different environments. Dependencies are specified in the `requirements.txt` file, making it easy for others to replicate the setup.
+
+### Steps:
+1. **Create a virtual environment**:
+    ```bash
+    python3 -m venv venv
+    ```
+
+2. **Activate the virtual environment**:
+    - On **Linux/macOS**:
+        ```bash
+        source venv/bin/activate
+        ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+## YOLOv8 Models Used
+
+| Model     | Size  | Speed | Accuracy | Use Case              |
+| --------- | ----- | ----- | -------- | --------------------- |
+| YOLOv8n   | Small | Fast  | Moderate | Real-time detection    |
+| YOLOv8l   | Large | Slower| High     | High-accuracy tasks    |
+
+### Sample Outputs
+
+#### **YOLOv8n (Nano) Detection Output**
 This model is designed for speed, making it ideal for real-time detection, though it sacrifices some accuracy in detecting smaller or more complex objects. In this experiment, YOLOv8n successfully detected the majority of people and cars but missed some details.
 
+![YOLOv8n People_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8n_people_detection.png)
+![YOLOv8n Cars_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8n_cars_detection.png)
 
-YOLOv8l (Large) Detection Output:
+#### **YOLOv8l (Large) Detection Output**
 With a focus on accuracy, YOLOv8l demonstrated superior object detection capabilities, identifying all people and cars in the images with high precision. However, this came at the cost of slower inference times.
 
+![YOLOv8l People_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8l_people_detection.png)
+![YOLOv8l Cars_Detection_Output](/home/heni/Autonomous_vehicle_projects/Object-detection/scripts/Running-Yolo/outputs/yolov8l_cars_detection.png)
 
-Results
-YOLOv8n: Best suited for applications requiring high-speed, real-time object detection, though it may miss smaller objects or complex scenarios.
-YOLOv8l: Ideal for situations where accuracy is paramount, albeit with a trade-off in processing speed.
-How to Use
-Cloning the Repository
-To replicate this experiment on your local machine:
+---
 
-git clone https://github.com/Heniteg/Object-detection.git
-cd Object-detection
+## How to Use
 
-Setting Up the Virtual Environment
-Create and activate a virtual environment:
+To replicate the experiment:
 
-python3 -m venv venv
-source venv/bin/activate
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Heniteg/Object-detection.git
+    cd Object-detection
+    ```
 
-Installing Dependencies
-Install all required packages from the requirements.txt file:
-pip install -r requirements.txt
+2. **Set up the virtual environment**:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-Running the Object Detection
-To run the detection script, you can modify the model weights directly inside the yolloBasics.py script to either YOLOv8n or YOLOv8l (or any other YOLOv8 model) by adjusting the path to the model's weights. After modifying the script, execute it using the virtual environment's Python interpreter.
+3. **Install the dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
+4. **Run the object detection**:
+    - Modify the model weights inside `yolloBasics.py`:
+        ```python
+        model = YOLO("yolov8n.pt")  # You can switch to yolov8l.pt or any other model
+        ```
+
+---
+
+## Results
+
+- **YOLOv8n** is ideal for real-time applications, but it may miss smaller or more complex objects.
+- **YOLOv8l** offers higher accuracy and can detect smaller objects with precision, but it comes with a trade-off in speed.
+
+---
 
 
