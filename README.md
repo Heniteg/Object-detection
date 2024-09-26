@@ -115,21 +115,21 @@ The object detection was executed using the script `yoloWithVideo.py`, which pro
 #### **Person Detection in Video**
 The YOLOv8n model was used to detect people in a video feed. Despite being optimized for speed, it accurately identifies multiple people in the frame.
 
-![Person Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/people.mp4)
+![Person Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/people.gif)
 
 In this video, the model demonstrates its ability to detect people in various positions and movements.
 
 #### **Bike Detection in Video**
 The YOLOv8l model was used to detect bikes in a busy urban environment. Its high accuracy enables it to distinguish between bikes and other objects.
 
-![Bike Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/motorbikes.mp4)
+![Bike Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/motorbikes.gif)
 
 This video showcases the model's precision in identifying bikes in complex scenes.
 
 #### **Car Detection in Video**
 The model accurately detects cars in a highway scenario, highlighting its use case for traffic monitoring and autonomous driving research.
 
-![Car Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/cars.mp4)
+![Car Detection Video](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/cars.gif)
 
 This video demonstrates the model's performance in identifying moving cars with high confidence.
 
