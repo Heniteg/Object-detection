@@ -56,7 +56,7 @@ In this example, the YOLOv8n model accurately detects a person in real-time with
 
 ![YOLOv8n Phone Detection Output](https://github.com/Heniteg/Object-detection/blob/yolo-webcam-enhancements/scripts/Yolo-With-Webcam/photos-and-videos/phone-detection-with-webcam.png)
 
-![Video Sample] (https://github.com/Heniteg/Object-detection/blob/yolo-webcam-enhancements/scripts/Yolo-With-Webcam/photos-and-videos/yolo-object-detection-using-webcam.mp4)
+![Video Sample] (https://github.com/Heniteg/Object-detection/blob/yolo-webcam-enhancements/scripts/Yolo-With-Webcam/photos-and-videos/yolo-object-detection-using-webc.mp4)
 
 Here, the model detects a phone in the user's hand, demonstrating its ability to recognize smaller objects effectively.
 
