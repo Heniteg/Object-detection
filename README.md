@@ -57,7 +57,7 @@ The primary goal of this project is to count both vehicles and people within des
 
 #### **Masking for the region of interest (People Counting)**
 
-![Masking](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-PeopleCounter/output/mask-people.jpg)
+![Masking](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-PeopleCounter/output/people-mask.jpg)
 
 ## How to Use
 
