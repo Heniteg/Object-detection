@@ -115,6 +115,7 @@ while True:
     # Display tracking results with bounding boxes and IDs
     for result in trackerResults:
         x1, y1, x2, y2, id = map(int, result)  # Unpack the tracked object's coordinates and ID
+        w, h = x2 - x1, y2 - y1  # importnt to have a stable detection
         cvzone.cornerRect(img, (x1, y1, w, h), l=10, rt=2, colorR=(255, 0, 0))  # Draw rectangle around the object
         cvzone.putTextRect(img, f'ID: {id}', (x1, y1), offset=5, scale=1, thickness=2)  # Display object ID
 
