@@ -27,6 +27,10 @@ The primary goal of this project is to count vehicles within a designated area i
 4. **Counting**:
    - Vehicles are counted as they enter and exit the masked region. The system keeps a tally of each vehicle type.
 
+5. **OpenCV**:
+   - OpenCV handles video input/output, processes frames, and manages the real-time display of results.
+
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -34,6 +38,7 @@ The primary goal of this project is to count vehicles within a designated area i
 - GPU with CUDA support
 - [ultralytics](https://github.com/ultralytics/)
 - [SORT GitHub Repository](https://github.com/abewley/sort)
+- [OpenCV](https://opencv.org/)
 - Canva (for mask creation)
 
 ### Sample Outputs
