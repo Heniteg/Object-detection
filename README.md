@@ -32,7 +32,7 @@ The primary goal of this project is to count vehicles within a designated area i
 ### Prerequisites
 - Python 3.x
 - GPU with CUDA support
-- [YOLOv8](https://github.com/ultralytics/yolov8)
+- [ultralytics](https://github.com/ultralytics/)
 - [SORT GitHub Repository](https://github.com/abewley/sort)
 - Canva (for mask creation)
 
