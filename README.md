@@ -40,21 +40,12 @@ The primary goal of this project is to count vehicles within a designated area i
 
 #### **YOLOv8l (large) car counting Output**
 
-![YOLOv8l Car_Counting_Output](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8n_people_detection.png)
+![YOLOv8l Car_Counting_Output](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project0-CarCounter/output/car-counter.gif)
 
 #### **Masking for the region of interest**
 
-![Masking](https://github.com/Heniteg/Object-detection/blob/main/scripts/Running-Yolo/outputs/yolov8l_people_detection.png)
+![Masking](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project0-CarCounter/output/mask-2.png)
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/car-counting-yolov8.git
-   cd car-counting-yolov8
-
-
----
 
 ## How to Use
 
