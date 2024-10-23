@@ -72,11 +72,11 @@ This project detects construction safety equipment using a dataset provided by [
 
 #### **YOLOv8l (large) people counting Output**
 
-![YOLOv8l People_Counting_Output](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-CarCounter/output/people-counter.gif)
+![YOLOv8l People_Counting_Output](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-PeopleCounter/output/people-counter.gif)
 
 #### **PPE Detection Output**
 
-![PPE Detection Output](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project2-PPEDetector/output/ppe-detector.gif)
+![PPE Detection Output](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project2-PPEDetection/output/ppe-detector.gif)
 
 #### **Masking for the region of interest (Car Counting)**
 
@@ -84,7 +84,7 @@ This project detects construction safety equipment using a dataset provided by [
 
 #### **Masking for the region of interest (People Counting)**
 
-![Masking](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-CarCounter/output/people-mask.png)
+![Masking](https://github.com/Heniteg/Object-detection/blob/counter-with-yolo/Project1-PeopleCounter/output/people-mask.jpg)
 
 ## How to Use
 
